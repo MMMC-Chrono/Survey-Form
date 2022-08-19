@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="backForm">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <form id="survey-form">
+        <label id="name-label">Name:<input id="name" type="text" placeholder="Enter Your Name" required/>
+        </label>
+        <label id="email-label">Email:<input id="email" type="email" placeholder="Enter Your Email" required/></label>
+        <label id="number-label">Age:<input id="number" placeholder="Enter Your Age" type="number"  min=9 max=120 /></label>
+        <label>Purpose of using this website:
+       <select id="dropdown">
+        <option>(select one)</option>
+        <option>For entertainment</option>
+        <option>For education</option>
+       </select></label>
+      <label>How did you hear about us: </label>
+      <label id="checking"><input type="checkbox" value=1/> YouTube</label>
+      <label id="checking"><input type="checkbox" value=2/> Printed Media</label>
+      <label id="checking"><input type="checkbox" value=3/> Social Media Platform</label>
+
+      <label>Please choose your account type:</label>
+      <label id="account"><input type="radio" name="choice-type" value=1/>Guest</label>
+      <label id="account"><input type="radio" name="choice-type" value=2/>Member</label>
+      <label>Please write your opinion:<textarea placeholder="In my opinion,..." ></textarea></label>
+      <input id="submit" type="submit" value="Submit"/>
+      </div>
+      </form>
+      </body>
+      </html>
