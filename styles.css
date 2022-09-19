@@ -7,14 +7,13 @@ body {
 .backForm {
   background-color: #ebd9c6;
   padding: 25px 25px 25px 40px;
-  margin:0 auto;
+  margin: 0 auto;
   max-width: 500px;
   color: #604020;
   border-style: double;
   border-width: thick;
   font-size: 20px;
 }
-
 #title {
   background-color: white;
   text-align: center;
@@ -24,38 +23,34 @@ body {
   padding: 20px;
   box-shadow: 0 0 3px 0;
 }
-
 #description {
   text-align: center;
 }
-
 label {
   display: block;
   margin: 20px 0;
 }
-
-#name, #email, #number {
+#name,
+#email,
+#number {
   width: 200px;
   margin-left: 30px;
 }
-
 #number {
   margin-left: 43px;
 }
-
 select {
   width: 200px;
   height: 30px;
   margin: 10px 0 0 20px;
 }
-
-#checking, #account {
+#checking,
+#account {
   padding-left: 20px;
 }
-
 textarea {
   display: block;
-  color:#663300;
+  color: #663300;
   height: 90px;
   margin: 10px 0 0 20px;
 }
